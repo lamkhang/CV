@@ -1,17 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="./css/style.css">
-	<title>My CV</title>
-</head>
-<body>
-	<div class="profile">
-		<h3>lam khang</h3>
-		<img src="./img/profile.jpeg" alt="">
-	</div>
 
+<head>
+  <title>My Resume</title>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+  <meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Google Font -->
+  <link
+    href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+  <!-- FontAwesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+    integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9"
+    crossorigin="anonymous"></script>
+  <!-- Global CSS -->
+  <!-- <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Theme CSS -->
+  <link id="theme-style" rel="stylesheet" href="assets/css/orbit-1.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <div class="profile-container">
+        <img class="profile" src="assets/images/profile.jpg" alt="" class="w-100">
+        <h1 class="name">LAM BAO KHANG</h1>
+        <h3 class="tagline">FRONT-END DEVELOPER</h3>
+      </div>
+      <!--//profile-container-->
+
+      <div class="contact-container container-block">
+        <ul class="list-unstyled contact-list">
+          <li class="email"><i class="fas fa-envelope"></i><a href="#">lbkhang102@gmail.com</a></li>
+          <li class="phone"><i class="fas fa-phone"></i><a href="#">0339020536</a></li>
+          <li class="website"><i class="fa fa-map-marker"></i><a href="#" target="_blank">Ho Chi Minh, Vietnam</a></li>
+          <li class="linkedin"><i class="fab fa-linkedin-in"></i><a href="https://www.linkedin.com/in/lam-khang-895788148/"
+              target="_blank">linkedin.com/in/lam-khang-895788148/</a></li>
+          <li class="github"><i class="fab fa-github"></i><a href="https://github.com/lamkhang" target="_blank">https://github.com/lamkhang</a>
+          </li>
+        </ul>
+      </div>
+      <!--//contact-container-->
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Education</h2>
+        <div class="item">
+          <h4 class="degree">BACH KHOA UNIVERSITY</h4>
+          <h5 class="meta">Electronic-Telecommunication technology</h5>
+          <h5 class="meta mt-1">GPA: 7.45/10</h5>
+          <div class="time">2014 - 2018</div>
+        </div>
+        <!--//item-->
+      </div>
+      <div class="education-container container-block">
+        <h2 class="container-block-title">Certifications</h2>
+        <div class="item">
+          <h4 class="degree">TOEIC Certificate</h4>
+          <h5 class="meta mt-1">Score: 630</h5>
+          <div class="time">2018</div>
+        </div>
+        <!--//item-->
+      </div>
+      <!--//education-container-->
+
+      <div class="languages-container container-block">
+        <h2 class="container-block-title">Languages</h2>
+        <ul class="list-unstyled interests-list">
+          <li>English </li>
+        </ul>
+      </div>
+      <!--//interests-->
+
+      <div class="interests-container container-block">
+        <h2 class="container-block-title">Interests</h2>
+        <ul class="list-unstyled interests-list">
+          <li>Read technical documentation.</li>
+          <li>Read soft skills book.</li>
+          <li>Learning English </li>
+        </ul>
+      </div>
+      <!--//interests-->
+
+    </div>
+    <!--//sidebar-wrapper-->
+
+    <div class="main-wrapper">
+
+      <section class="section summary-section">
+        <h2 class="section-title"><span class="icon-holder"><i class="fas fa-user"></i></span>Career Profile</h2>
+        <div class="summary">
+          <p class="mb-2">- I’m a front-end developer with more 6 months of experience in building web application
+            (ReactJS, Angular 2), with good knowledge of Reactive Programming.</p>
+          <p class="mb-2">- I love learning new technologies and building valuable application that helps others with
+            their work. I’m considered a team-player because I like to help other and tend to work well within the
+            group.</p>
+        </div>
+        <!--//summary-->
+      </section>
+      <!--//section-->
+
+      <section class="section experiences-section">
+        <h2 class="section-title"><span class="icon-holder"><i class="fas fa-briefcase"></i></span>Project - Work Experience</h2>
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">CYBERSOFT ACADEMY</h3>
+              <div class="time">JUL 2019 - PRESENT</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company">Freelancer</div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <h6>Project: Elearning & Booking Ticket Movie</h6>
+            <p>- Layout follow page mercedes-benz using HTML, SCSS, BootStrap.</p>
+            <p>- Create web booking ticket movie using ReactJS library, mdbootstrap library</p>
+            <p>- Create web elearning using Angular 8 framework, Angular Material library</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">TERRALOGIC COMPANY</h3>
+              <div class="time">DEC 2018 - PRESENT</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company">Software Engineer</div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <h6>Project: Automotive - QNX, LINUX Device Driver (C Programming)</h6>
+            <p>Main responsibilities:</p>
+            <p>- Common Training & Technical Study: Linux OS, QNX OS, SoC Architecture, Cross Compiler, Yocto, Git, SVN
+            </p>
+            <p>- Collect Project Manager's requirements</p>
+            <p>- Research and Development about SPI Flash, Serial, CAN-CANFD, IPL driver</p>
+
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">VALLEY CAMPUS VN</h3>
+              <div class="time">JUN 2018 - SEP 2018</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company">Software Engineer Internship</div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <h6>Project: Automotive - QNX, LINUX Device Driver (C Programming)</h6>
+            <p>- Build skill to create lesson English on Alexa.</p>
+            <p>- Learning C++, Python, OOP</p>
+
+          </div>
+          <!--//details-->
+        </div>
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">PROJECT AT UNIVERSITY</h3>
+              <div class="time">2017 - JUN 2018</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company">Student</div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>- Hand gesture recognition and count vehicle using Python-Open CV.</p>
+            <p>- Automatic vehicle counting system on Raspberry Pi.</p>
+            <p>- Java programming on android studio.</p>
+          </div>
+          <!--//details-->
+        </div>
+        <!--//item-->
+
+      </section>
+      <!--//section-->
+
+      <section class="section projects-section experiences-section">
+        <h2 class="section-title"><span class="icon-holder"><i class="fa fa-star"></i></span>Activities</h2>
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">PARTICIPATE IN VOLUNTEER ACTIVITIES</h3>
+              <div class="time">2015 - 2017</div>
+            </div>
+            <!--//upper-row-->
+            <div class="company">Volunteer</div>
+          </div>
+          <!--//meta-->
+          <div class="details">
+            <p>- Organize monthly events, network with other universities</p>
+            <p>- Charity fundraising. Gather the gift and distribute it to the homeless</p>
+            <p>- Encourage them to overcome the difficult period, help they have positive thoughts.</p>
+            <p>- Support for career counseling and admission counseling.</p>
+          </div>
+          <!--//details-->
+        </div>
+      </section>
+
+      <section class="skills-section section">
+        <h2 class="section-title"><span class="icon-holder"><i class="fas fa-rocket"></i></span>Skills &amp; Proficiency
+        </h2>
+        <div class="skillset">
+          <div class="item">
+            <h3 class="level-title">C, C+, Python, Java, JavaScript, OOP</h3>
+            <div class="progress level-bar">
+              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="99"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">HTML, CSS, SASS,</h3>
+            <div class="progress level-bar">
+              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 80%" aria-valuenow="98"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">ES6, Jquery, ReactJS, Angular 2, BootStrap, Material</h3>
+            <div class="progress level-bar">
+              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="98"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Logical thinking and creative</h3>
+            <div class="progress level-bar">
+              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="95"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <!--//item-->
+
+          <div class="item">
+            <h3 class="level-title">Teamwork skill, English.</h3>
+            <div class="progress level-bar">
+              <div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="85"
+                aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <!--//item-->
+
+        </div>
+      </section>
+      <!--//skills-section-->
+
+    </div>
+    <!--//main-body-->
+  </div>
+
+  <footer class="footer">
+    <div class="text-center">
+      <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other commercial license options via our website: themes.3rdwavemedia.com */-->
+    </div>
+    <!--//container-->
+  </footer>
+  <!--//footer-->
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
